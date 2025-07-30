@@ -3,9 +3,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
-import Home from './pages/Home'; // ✅ updated to match actual filename
 import Footer from './components/Footer';
 import { useState } from 'react';
+import Home from './pages/Home';
 
 function App() {
   const [activeSection, setActiveSection] = useState('Home');
@@ -31,6 +31,7 @@ function App() {
           </Helmet>
           <Navbar activeSection={activeSection} />
           <Home setActiveSection={setActiveSection} />
+        
           <Footer />
         </div>
       </Router>
