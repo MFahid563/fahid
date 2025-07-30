@@ -31,6 +31,7 @@ function App() {
           </Helmet>
           <Navbar activeSection={activeSection} />
           <Home setActiveSection={setActiveSection} />
+       
         
           <Footer />
         </div>
