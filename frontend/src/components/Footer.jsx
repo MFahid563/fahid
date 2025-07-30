@@ -20,7 +20,7 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-rose-600 to-rose-400 bg-clip-text text-transparent mb-4">Muhammad Fahid</h3>
             <p className="text-slate-600 dark:text-slate-300 mb-6">
-             Expert strategies & insights on business development, full-stack web solutions, and digital transformation
+             Expert strategies & insights on business developments, full-stack web solutions, and digital transformation
             </p>
           </motion.div>
 
