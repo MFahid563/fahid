@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
-import Home from './pages/home'; // ✅ updated to match actual filename
+import Home from './pages/Home'; // ✅ updated to match actual filename
 import Footer from './components/Footer';
 import { useState } from 'react';
 
