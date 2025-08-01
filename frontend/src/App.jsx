@@ -11,14 +11,14 @@ function App() {
   const [activeSection, setActiveSection] = useState('Home');
 
   const sectionTitles = {
-    'Home': 'Muhammad Fahid | 3D Web & MERN Stack Developers',
-    'About': 'About Me | Qasim Ali - Professional Developer',
-    'Skills': 'Technical Skills | Qasim Ali',
-    'Projects': 'Projects | Qasim Ali Portfolio',
-    'Experience': 'Experience & Education | Qasim Ali',
-    'Testimonials': 'Client Testimonials | Qasim Ali',
-    'Blog': 'Blog & Insights | Qasim Ali',
-    'Contact': 'Contact Me | Qasim Ali'
+    'Home': 'Muhammad Fahid | Business & Web Developer',
+    'About': 'About Me | Muhammad Fahid - Professional Developer',
+    'Skills': 'Technical Skills | Muhammad Fahid',
+    'Projects': 'Projects | Muhammad Fahid Portfolio',
+    'Experience': 'Experience & Education | Muhammad Fahid',
+    'Testimonials': 'Client Testimonials | Muhammad Fahid',
+    'Blog': 'Blog & Insights | Muhammad Fahid',
+    'Contact': 'Contact Me | Muhammad Fahid'
   };
 
   return (
@@ -26,7 +26,7 @@ function App() {
       <Router>
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
           <Helmet>
-            <title>{sectionTitles[activeSection] || 'Qasim Ali | Portfolio'}</title>
+            <title>{sectionTitles[activeSection] || 'Muhammad Fahid | Portfolio'}</title>
             <meta name="description" content="Professional MERN Stack Developer with expertise in React, Node.js, and MongoDB" />
           </Helmet>
           <Navbar activeSection={activeSection} />
