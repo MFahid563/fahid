@@ -11,7 +11,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('Home');
 
   const sectionTitles = {
-    'Home': 'Qasim Ali | 3D Web & MERN Stack Developers',
+    'Home': 'Muhammad Fahid | 3D Web & MERN Stack Developers',
     'About': 'About Me | Qasim Ali - Professional Developer',
     'Skills': 'Technical Skills | Qasim Ali',
     'Projects': 'Projects | Qasim Ali Portfolio',
