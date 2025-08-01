@@ -1,7 +1,7 @@
 // src/App.js
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { ThemeProvider } from './context/ThemeContext';
+import { ThemeProvider } from './context/ThemeContext.js';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import { useState } from 'react';
