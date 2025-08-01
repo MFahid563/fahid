@@ -12,7 +12,7 @@ function App() {
 
   const sectionTitles = {
     'Home': 'Qasim Ali | 3D Web & MERN Stack Developers',
-    'About': 'About Me | Qasim Alis - Professional Developer',
+    'About': 'About Me | Qasim Ali - Professional Developer',
     'Skills': 'Technical Skills | Qasim Ali',
     'Projects': 'Projects | Qasim Ali Portfolio',
     'Experience': 'Experience & Education | Qasim Ali',
