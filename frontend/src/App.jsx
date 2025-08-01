@@ -5,7 +5,7 @@ import { ThemeProvider } from './context/ThemeContext.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import { useState } from 'react';
-import Home from './Pages/Home.jsx';
+import Home from './page/Home.jsx';
 
 function App() {
   const [activeSection, setActiveSection] = useState('Home');
