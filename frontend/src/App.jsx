@@ -2,8 +2,8 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ThemeProvider } from './context/ThemeContext';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 import { useState } from 'react';
 import Home from './pages/Home.js';
 

@@ -1,11 +1,11 @@
 // src/pages/Home.js
-import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
-import SkillsSection from '../components/SkillsSection';
-import ProjectsSection from '../components/ProjectsSection';
-import ExperienceSection from '../components/ExperienceSection';
-import TestimonialsSection from '../components/TestimonialsSection';
-import BlogSection from '../components/BlogSection';
+import HeroSection from '../components/HeroSection.js';
+import AboutSection from '../components/AboutSection.js';
+import SkillsSection from '../components/SkillsSection.js';
+import ProjectsSection from '../components/ProjectsSection.js';
+import ExperienceSection from '../components/ExperienceSection.js';
+import TestimonialsSection from '../components/TestimonialsSection.js';
+import BlogSection from '../components/BlogSection.js';
 import { useEffect } from 'react';
 
 const Home = ({ setActiveSection }) => {
