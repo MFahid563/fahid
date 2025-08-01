@@ -1,11 +1,10 @@
 // src/App.js
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { ThemeProvider } from './context/ThemeContext.js';
-import Navbar from './components/Navbar.js';
-import Footer from './components/Footer.js';
+import { ThemeProvider } from './context/ThemeContext.jsx';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 import { useState } from 'react';
-import Home from './pages/Home.js';
 
 function App() {
   const [activeSection, setActiveSection] = useState('Home');
